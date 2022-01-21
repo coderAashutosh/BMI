@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./1.jpg">
+</head>
+
+<body>
+    <div class="dialog">
+        <div class="container dialog-container">
+            <span class="result-icon-wrap">
+                <i class="fas fa-check-circle normal"></i>
+            </span>
+            <div class="wrapper">
+
+                <p class="dialog-title">BMI INDEX:- 34</p>
+                <p class="dialog-title res">Result:- Normal</p>
+
+                <button class="btn dialog-btn">OK</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="title">BMI CALCULATOR</p>
+        <div class="wrapper">
+            <div class="height-wrap">
+                <span class="icon-wrap">
+                    <i class="fas fa-ruler-vertical icon"></i>
+                </span>
+                <input type="text" placeholder="Height" class="input height" />
+                <select class="select">
+                    <option value="">CM</option>
+                </select>
+            </div>
+
+            <!-- Weight -->
+
+            <div class="height-wrap">
+                <span class="icon-wrap">
+                    <i class="fas fa-weight-scale icon"></i>
+                </span>
+                <input type="text" placeholder="Weight" class="input weight" />
+                <select class="select">
+                    <option value="">Kgs</option>
+                </select>
+            </div>
+
+            <button class="btn calculate">Calculate</button>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
